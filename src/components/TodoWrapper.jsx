@@ -1,7 +1,11 @@
+import TodoForm from "./TodoForm";
+
 export default function TodoWrapper(){
   return (
     <>
-    <div>Todo wrapper</div>
+    <div className="TodoWrapper">
+    <TodoForm/>
+    </div>
     </>
   )
 }
